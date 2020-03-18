@@ -25,7 +25,7 @@ class Waiter
     tipper = meals.max do {meal1, meal2}
       meal1 <=> meal2
     end
-    tip.customer
+    tipper.customer
     
   end
 end
